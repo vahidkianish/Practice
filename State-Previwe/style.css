@@ -81,25 +81,29 @@ h4 {
 
 h3 {
 	font-family: "Inter", sans-serif;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	padding-bottom: 0.3rem;
 }
 
-h4,h3{
-    text-align: center;
+h4,
+h3 {
+	text-align: center;
 }
 .attribution,
 a {
 	font-family: "Inter", sans-serif;
 	font-size: 0.8rem;
 	font-weight: 700;
-    color: hsla(0, 0%, 100%, 0.6);
-    margin-top: 20px;
+	color: hsla(0, 0%, 100%, 0.6);
+	margin-top: 20px;
 }
 
 .card-left-side {
 	margin-bottom: 20px;
+}
+a{
+    color: salmon;
 }
 @media only screen and (min-width: 768px) {
 	body {
@@ -108,7 +112,6 @@ a {
 	}
 
 	main {
-		border: solid white;
 		flex-direction: row;
 		width: 900px;
 		height: 375px;
@@ -123,17 +126,16 @@ a {
 		color: hsl(0, 0%, 100%);
 		display: inline;
 	}
-    .card-right-side {
-        width: 100%;
-        height: 100%;
-        border-radius:  0 10px 10px 0;
-        border: solid white;
-    }
-    
-    .card-right-side img {
-        width: 100%;
-        height: 100%;
-    }
+	.card-right-side {
+		width: 100%;
+		height: 100%;
+		border-radius: 0 10px 10px 0;
+	}
+
+	.card-right-side img {
+		width: 100%;
+		height: 100%;
+	}
 	h1 {
 		margin: 0;
 		padding-bottom: 20px;
@@ -142,6 +144,24 @@ a {
 	p {
 		text-align: left;
 	}
-   
 
+	div {
+		padding: 0 30px;
+		line-height: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.attribution,
+	a {
+		font-family: "Inter", sans-serif;
+		font-size: 1rem;
+		font-weight: 700;
+		color: hsla(0, 0%, 100%, 0.6);
+	}
+
+   a{
+       color: salmon;
+   }
 }
