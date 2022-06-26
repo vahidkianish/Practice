@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	font-size: 15px;
+	/* margin: 30px; */
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 30px;
+	margin: 30px;
 	background: hsl(233, 47%, 7%);
 }
 
